@@ -82,7 +82,22 @@ namespace Dana.CapaConexion
             return miDataSet;
         }
 
-        protected DataSet seleccionarInfotmacion(string sentencia)
+        protected DataSet seleccionarInformacion(MySqlCommand miComando)
+        {
+            DataSet miDataSet = new DataSet();
+            MySqlDataAdapter miSqlDataAdapter = new MySqlDataAdapter();
+
+            miComando.CommandTimeout = 2000;
+            miComando.Connection = conexion;
+
+            miComando.CommandType = CommandType.StoredProcedure;
+            miSqlDataAdapter.SelectCommand = miComando;
+            miSqlDataAdapter.Fill(miDataSet);
+
+            return miDataSet;
+        }
+
+        protected DataSet seleccionarInformacion(string sentencia)
         {
             DataSet miDataSet = new DataSet();
             MySqlCommand miSqlCommand = conexion.CreateCommand();

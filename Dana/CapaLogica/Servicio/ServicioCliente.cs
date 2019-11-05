@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -99,6 +100,23 @@ namespace Dana.CapaLogica.Servicio
             return respuesta;
         }
 
+        public DataSet ConsultarCliente(int id_Cliente)
+        {
+            miComando = new MySqlCommand();
+            Console.WriteLine("GestorCliente");
 
+            miComando.CommandText = "ConsultarCliente";
+
+            miComando.Parameters.Add("@id_Cliente", MySqlDbType.VarChar);
+            miComando.Parameters["@id_Cliente"].Value = id_Cliente;
+
+            DataSet miDataSet = new DataSet();
+            this.abrirConexion();
+
+            miDataSet = this.seleccionarInformacion(miComando);
+            this.cerrarConexion();
+
+            return miDataSet;
+        }
     }
 }
