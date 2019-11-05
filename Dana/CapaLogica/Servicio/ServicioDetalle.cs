@@ -1,41 +1,49 @@
-﻿using Dana.CapaLogica.LogicaNegocio;
-using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dana.CapaConexion;
+using Dana.CapaLogica.LogicaNegocio;
+using MySql.Data.MySqlClient;
 
-namespace CapaLogica.Servicio
+namespace Dana.CapaLogica.Servicio
 {
-    class ServicioDetalle
+   public class ServicioDetalle: servicio , IDisposable
     {
         MySqlCommand miComando;
+        private string respuesta;
+
+       
+
+        public ServicioDetalle()
+        {
+            respuesta = "";
+            miComando = new MySqlCommand();
+        }
+        public void Dispose()
+        {
+
+        }
 
         public string ingresarDetalle(Detalle elDetalle)
         {
             miComando = new MySqlCommand();
-            Console.WriteLine("GestorCliente");
+            Console.WriteLine("GestorDetalle");
 
-            miComando.CommandText = "IngresarCliente";
+            miComando.CommandText = "IngresarDetalle";
 
-            miComando.Parameters.Add("@nombre_Cliente", MySqlDbType.VarChar);
-            miComando.Parameters["@nombre_Cliente"].Value = elDetalle.Nombre_Cliente;
+            miComando.Parameters.Add("@idP", MySqlDbType.Int32);
+            miComando.Parameters["@idP"].Value = elDetalle.Id_Producto;
 
-            miComando.Parameters.Add("@apellido:Cliente", MySqlDbType.VarChar);
-            miComando.Parameters["@apellido_Cliente"].Value = elDetalle.Nombre_Cliente;
+            miComando.Parameters.Add("@idV", MySqlDbType.VarChar);
+            miComando.Parameters["@idV"].Value = elDetalle.Id_Venta;
 
-            miComando.Parameters.Add("@telefono_Cliente", MySqlDbType.VarChar);
-            miComando.Parameters["@telefono_Cliente"].Value = elDetalle.Telefono_Cliente;
+            miComando.Parameters.Add("@cant", MySqlDbType.VarChar);
+            miComando.Parameters["@cant"].Value = elDetalle.Cantidad_Producto;
 
-            miComando.Parameters.Add("@email", MySqlDbType.VarChar);
-            miComando.Parameters["@email"].Value = elDetalle.Email;
 
-            miComando.Parameters.Add("@direccion_Cliente", MySqlDbType.VarChar);
-            miComando.Parameters["@direccion_Cliente"].Value = elCliente.Direccion_Cliente;
-
-            miComando.Parameters.Add("@estado_Cliente", MySqlDbType.VarChar);
-            miComando.Parameters["@estado_Cliente"].Value = elCliente.Estado_Cliente;
 
             respuesta = this.ejecutarSentencia(miComando);
             if (respuesta == "")
@@ -47,5 +55,26 @@ namespace CapaLogica.Servicio
 
             return respuesta;
         }
+
+        public DataSet CargarDetalle(int id_Venta)
+        {
+            miComando = new MySqlCommand();
+            Console.WriteLine("GestorDetalle");
+
+            miComando.CommandText = "cargarDetalleFactura";
+
+            miComando.Parameters.Add("@id_Ve", MySqlDbType.Int32);
+            miComando.Parameters["@id_Ve"].Value = id_Venta;
+
+            DataSet miDataSet = new DataSet();
+            this.abrirConexion();
+
+            miDataSet = this.seleccionarInformacion(miComando);
+            this.cerrarConexion();
+
+            return miDataSet;
+        }
+
+
     }
 }
