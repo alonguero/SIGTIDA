@@ -56,6 +56,25 @@ namespace Dana.CapaLogica.Servicio
             return respuesta;
         }
 
-        
+        public DataSet CargarDetalle(int id_Venta)
+        {
+            miComando = new MySqlCommand();
+            Console.WriteLine("GestorDetalle");
+
+            miComando.CommandText = "cargarDetalleFactura";
+
+            miComando.Parameters.Add("@id_Ve", MySqlDbType.Int32);
+            miComando.Parameters["@id_Ve"].Value = id_Venta;
+
+            DataSet miDataSet = new DataSet();
+            this.abrirConexion();
+
+            miDataSet = this.seleccionarInformacion(miComando);
+            this.cerrarConexion();
+
+            return miDataSet;
+        }
+
+
     }
 }
