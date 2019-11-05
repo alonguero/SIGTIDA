@@ -34,7 +34,7 @@ namespace Dana.CapaLogica.LogicaNegocio
             estado_Cliente = Pestado_Cliente;
         }
 
-        public Cliente(int Pid_Cliente,string Pnombre_Cliente, string Papellido_Cliente, string Ptelefono_Cliente, string Pemail,
+        public Cliente(int Pid_Cliente, string Pnombre_Cliente, string Papellido_Cliente, string Ptelefono_Cliente, string Pemail,
                        string Pdireccion_Cliente, string Pestado_Cliente)
         {
             id_Cliente = Pid_Cliente;
