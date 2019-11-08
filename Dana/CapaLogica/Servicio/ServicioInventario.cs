@@ -8,14 +8,14 @@ using Dana.CapaConexion;
 using Dana.CapaLogica.LogicaNegocio;
 using MySql.Data.MySqlClient;
 
-
 namespace Dana.CapaLogica.Servicio
 {
-    public class ServicioInventario: servicio, IDisposable
+    public class ServicioInventario : servicio, IDisposable
     {
-
-        private MySqlCommand miComando;
+        MySqlCommand miComando;
         private string respuesta;
+
+
 
         public ServicioInventario()
         {
@@ -32,17 +32,24 @@ namespace Dana.CapaLogica.Servicio
             miComando = new MySqlCommand();
             Console.WriteLine("GestorInventario");
 
-            miComando.CommandText = "IngresarInventario";
+            miComando.CommandText = "IngresarDetalle";
 
-            miComando.Parameters.Add("@cantidad_Produto", MySqlDbType.Int32);
-            miComando.Parameters["@cantidad_Produto"].Value = elInventario.Cantidad_Producto;
+            miComando.Parameters.Add("@idP", MySqlDbType.Int32);
+            miComando.Parameters["@idP"].Value = elInventario.Id_Producto;
+
+            miComando.Parameters.Add("@cant", MySqlDbType.VarChar);
+            miComando.Parameters["@cant"].Value = elInventario.Cantidad_Producto;
+
+
+
 
             respuesta = this.ejecutarSentencia(miComando);
-
             if (respuesta == "")
-                respuesta += "se ha realizadol correctamente la transaccion";
+                respuesta += "se ha realizado correctamente la transaccion";
+
+
             Console.WriteLine(respuesta);
-            Console.WriteLine("Fin del gestor ingresar Inventario");
+            Console.WriteLine("Fin del gestor ingreso Cliente");
 
             return respuesta;
         }

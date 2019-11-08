@@ -10,10 +10,12 @@ using MySql.Data.MySqlClient;
 
 namespace Dana.CapaLogica.Servicio
 {
-    public class ServicioVenta: servicio , IDisposable
+    public class ServicioVenta : servicio, IDisposable
     {
-        private MySqlCommand miComando;
+        MySqlCommand miComando;
         private string respuesta;
+
+
 
         public ServicioVenta()
         {
@@ -25,54 +27,29 @@ namespace Dana.CapaLogica.Servicio
 
         }
 
-        public string ingresarVenta(Venta laVenta)
+        public string ingresarVenta(Detalle elDetalle)
         {
             miComando = new MySqlCommand();
-            Console.WriteLine("GestorVenta");
+            Console.WriteLine("IngresarVenta");
 
             miComando.CommandText = "IngresarVenta";
 
-            miComando.Parameters.Add("@id_Cliente", MySqlDbType.Int32);
-            miComando.Parameters["@id_Cliente"].Value = laVenta.Id_Cliente;
+            miComando.Parameters.Add("@idC", MySqlDbType.Int32);
+            miComando.Parameters["@idC"].Value = elDetalle.Id_Producto;
 
-            miComando.Parameters.Add("@fecha_Venta", MySqlDbType.Date);
-            miComando.Parameters["@fecha_Venta"].Value = laVenta.Fecha_Venta;
+           
+
+
 
             respuesta = this.ejecutarSentencia(miComando);
-
             if (respuesta == "")
-                respuesta += "se ha realizadol correctamente la transaccion";
+                respuesta += "se ha realizado correctamente la transaccion";
+
+
             Console.WriteLine(respuesta);
-            Console.WriteLine("Fin del gestor ingresar Venta");
+            Console.WriteLine("Fin del gestor ingreso Cliente");
 
             return respuesta;
         }
-
-        public string modificarVenta(Venta laVenta)
-        {
-            miComando = new MySqlCommand();
-            Console.WriteLine("GestorVenta");
-
-            miComando.CommandText = "ModificarVenta";
-
-            miComando.Parameters.Add("@id_Venta", MySqlDbType.Int32);
-            miComando.Parameters["@id_Venta"].Value = laVenta.Id_Venta;
-
-            miComando.Parameters.Add("@id_Cliente", MySqlDbType.Int32);
-            miComando.Parameters["@id_Cliente"].Value = laVenta.Id_Cliente;
-
-            miComando.Parameters.Add("@fecha_Venta", MySqlDbType.Date);
-            miComando.Parameters["@fecha_Venta"].Value = laVenta.Fecha_Venta;
-
-            respuesta = this.ejecutarSentencia(miComando);
-
-            if (respuesta == "")
-                respuesta += "se ha realizadol correctamente la transaccion";
-            Console.WriteLine(respuesta);
-            Console.WriteLine("Fin del gestor modificar Venta");
-
-            return respuesta;
-        }
-
     }
 }
