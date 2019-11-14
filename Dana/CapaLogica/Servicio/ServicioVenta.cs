@@ -27,15 +27,15 @@ namespace Dana.CapaLogica.Servicio
 
         }
 
-        public string ingresarVenta(Detalle elDetalle)
+        public string ingresarVenta(Venta laVenta)
         {
             miComando = new MySqlCommand();
             Console.WriteLine("IngresarVenta");
 
             miComando.CommandText = "IngresarVenta";
 
-            miComando.Parameters.Add("@idC", MySqlDbType.Int32);
-            miComando.Parameters["@idC"].Value = elDetalle.Id_Producto;
+            miComando.Parameters.Add("@id_Producto", MySqlDbType.Int32);
+            miComando.Parameters["@id_Producto"].Value = laVenta.Id_Producto;
 
            
 
@@ -47,7 +47,7 @@ namespace Dana.CapaLogica.Servicio
 
 
             Console.WriteLine(respuesta);
-            Console.WriteLine("Fin del gestor ingreso Cliente");
+            Console.WriteLine("Fin del gestor ingreso Venta");
 
             return respuesta;
         }

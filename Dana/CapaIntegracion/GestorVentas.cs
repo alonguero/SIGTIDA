@@ -36,13 +36,5 @@ namespace Dana.CapaIntegracion
                 return laVenta.ingresarVenta(nuevaVenta);
         }
 
-        public string modificarVenta(int Id_Venta, int Id_Cliente, DateTime Fecha_Venta)
-        {
-            Venta cambiaVenta = new Venta(Id_Venta, Id_Cliente, Fecha_Venta);
-
-            using (ServicioVenta laVenta = new ServicioVenta())
-                return laVenta.modificarVenta(cambiaVenta);
-        }
-
     }
 }
