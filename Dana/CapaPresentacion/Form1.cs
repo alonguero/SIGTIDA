@@ -36,5 +36,12 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            graficoVentas grap = new graficoVentas();
+            grap.Show();
+        }
     }
 }

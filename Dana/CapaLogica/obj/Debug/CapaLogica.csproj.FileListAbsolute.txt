@@ -1,0 +1,13 @@
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\CapaConexion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\MySql.Data.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\Google.Protobuf.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\CapaConexion.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\bin\Debug\MySql.Data.xml
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaLogica\obj\Debug\CapaLogica.pdb
