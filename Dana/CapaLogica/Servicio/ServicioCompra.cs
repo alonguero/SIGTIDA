@@ -58,7 +58,7 @@ namespace Dana.CapaLogica.Servicio
             miComando = new MySqlCommand();
             Console.WriteLine("GestorCompra");
 
-            miComando.CommandText = "IngresarCompra";
+            miComando.CommandText = "ModificarCompra";
 
             miComando.Parameters.Add("@id_Compra", MySqlDbType.VarChar);
             miComando.Parameters["@id_Compra"].Value = laCompra.Id_Compra;
