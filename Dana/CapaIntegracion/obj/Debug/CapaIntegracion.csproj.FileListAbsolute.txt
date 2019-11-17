@@ -1,0 +1,15 @@
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaIntegracion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaIntegracion.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaConexion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaLogica.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\MySql.Data.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\Google.Protobuf.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaConexion.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\CapaLogica.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\bin\Debug\MySql.Data.xml
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\obj\Debug\CapaIntegracion.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\obj\Debug\CapaIntegracion.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\obj\Debug\CapaIntegracion.csproj.CopyComplete
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\obj\Debug\CapaIntegracion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaIntegracion\obj\Debug\CapaIntegracion.pdb

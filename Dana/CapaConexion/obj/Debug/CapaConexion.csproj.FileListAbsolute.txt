@@ -1,0 +1,11 @@
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\MySql.Data.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\Google.Protobuf.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\bin\Debug\MySql.Data.xml
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CopyComplete
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.pdb
