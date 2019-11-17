@@ -20,8 +20,8 @@ namespace CapaPresentacion
 
         private void Chart1_Click(object sender, EventArgs e)
         {
-            string [] series = {"Lunes", "Martes", "Miercoles" };
-            int[] puntos = {1,2,3 };
+            string [] series = {"enero", "Martes", "Miercoles" };
+            int[] ventas = {100,27,50 };
 
             chart1.Titles.Add("Prueba");
             for (int i=0; i<series.Length;i++ )
@@ -29,9 +29,11 @@ namespace CapaPresentacion
                 //Titulos
                 Series serie = chart1.Series.Add(series[i]);
                 //Cantidades
-                serie.Label = puntos[i].ToString();
-                serie.Points.Add(puntos[i]);
+                serie.Label = ventas[i].ToString();
+                serie.Points.Add(ventas[i]);
             }
+
+            
 
         }
     }
