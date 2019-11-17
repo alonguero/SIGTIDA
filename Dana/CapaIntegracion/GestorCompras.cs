@@ -36,26 +36,28 @@ namespace Dana.CapaIntegracion
                 return laCom.IngresarCompra(nuevaCompra);
         }
 
-        public DataSet ConsultarCompra(int id)
+        public DataTable ListarCompra()
         {
             using (ServicioCompra comp = new ServicioCompra())
             {
 
-                return comp.ConsultarCompra(id);
+                return comp.ListarCompra();
 
 
             }
 
         }
 
+        
 
 
-       // public string modificarVenta(int Id_Venta, int Id_Cliente, DateTime Fecha_Venta)
-       // {
-         //   Venta cambiaVenta = new Venta(Id_Venta, Id_Cliente, Fecha_Venta);
 
-           // using (ServicioVenta laVenta = new ServicioVenta())
-          //      return laVenta.modificarVenta(cambiaVenta);
+        // public string modificarVenta(int Id_Venta, int Id_Cliente, DateTime Fecha_Venta)
+        // {
+        //   Venta cambiaVenta = new Venta(Id_Venta, Id_Cliente, Fecha_Venta);
+
+        // using (ServicioVenta laVenta = new ServicioVenta())
+        //      return laVenta.modificarVenta(cambiaVenta);
         //}
 
     }

@@ -83,16 +83,13 @@ namespace Dana.CapaLogica.Servicio
         }
 
 
-        public DataSet ConsultarCompra(int id_Compra)
+       /* public DataSet ListarCompra()
         {
             miComando = new MySqlCommand();
             Console.WriteLine("GestorCompra");
 
-            miComando.CommandText = "ConsultarCompra";
-
-            miComando.Parameters.Add("@id_Compra", MySqlDbType.VarChar);
-            miComando.Parameters["@id_Compra"].Value = id_Compra;
-
+            miComando.CommandText = "ListarCompra";
+            
             DataSet miDataSet = new DataSet();
             this.abrirConexion();
 
@@ -100,6 +97,28 @@ namespace Dana.CapaLogica.Servicio
             this.cerrarConexion();
 
             return miDataSet;
+        }*/
+
+        public DataTable ListarCompra()
+        {
+
+
+            miComando = new MySqlCommand();
+            Console.WriteLine("GestorCompra");
+
+            miComando.CommandText = "ListarCompra";
+
+
+            DataSet miDataSet = new DataSet();
+            this.abrirConexion();
+
+
+            miDataSet = this.seleccionarInformacion(miComando);
+            DataTable miTablaDatos = miDataSet.Tables[0];
+
+            this.cerrarConexion();
+
+            return miTablaDatos;
         }
     }
 }

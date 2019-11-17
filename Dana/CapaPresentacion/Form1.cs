@@ -40,7 +40,7 @@ namespace CapaPresentacion
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            graficoVentas grap = new graficoVentas();
+            prueba grap = new prueba();
             grap.Show();
         }
     }

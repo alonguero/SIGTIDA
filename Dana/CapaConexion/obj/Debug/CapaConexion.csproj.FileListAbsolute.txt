@@ -9,3 +9,13 @@ C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\Ca
 C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CopyComplete
 C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.dll
 C:\Users\Eduardo\Documents\GitHub\InfoRed\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\MySql.Data.dll
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\Google.Protobuf.dll
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\bin\Debug\MySql.Data.xml
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CopyComplete
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.pdb
