@@ -45,3 +45,5 @@ C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaP
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaPresentacion.Menu.resources
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaPresentacion\obj\Debug\CapaPresentacion.Compras.resources

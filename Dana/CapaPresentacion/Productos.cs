@@ -1,5 +1,4 @@
-﻿using Dana.CapaIntegracion;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class prueba : Form
+    public partial class Productos : Form
     {
-        GestorCompras GC = new GestorCompras();
-
-        public prueba()
+        public Productos()
         {
             InitializeComponent();
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        
-
     }
 }
