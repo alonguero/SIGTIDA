@@ -19,3 +19,4 @@ C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConex
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csproj.CopyComplete
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.dll
 C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\WIN10PRO\Documents\GitHub\SIGTIDA\Dana\CapaConexion\obj\Debug\CapaConexion.csprojAssemblyReference.cache
