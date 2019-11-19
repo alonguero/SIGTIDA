@@ -14,7 +14,7 @@ namespace Dana.CapaConexion
 
         public servicio()
         {
-            conexion = new MySqlConnection("server=192.168.1.199; uid=root;" + "pwd=eduar12345.; database=sigtida");
+            conexion = new MySqlConnection("server=mysql.us.cloudlogin.co; uid=gamabasis_wrkbd;" + "pwd=Team2020*; database=gamabasis_wrkbd");
         }
 
         protected void abrirConexion()
